@@ -13,7 +13,7 @@ const About = () => {
     <>
       <HeaderTwo />
       <Breadcrumb title_top="Sobre"  title_bottom="Brasil Atuarial" />
-      <HeroBanner title="Sobre" subtitle="Brasil Atuarial" bg_img="/atuarial/assets/img/salasuperior.jpg" />
+      <HeroBanner title="Sobre" subtitle="Brasil Atuarial" bg_img="/atuarial/assets/img/fachada.jpg" />
       <CompanyArea />
       <Brand />
       <TeamArea bg_style={true} />

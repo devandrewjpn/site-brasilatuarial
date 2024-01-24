@@ -38,7 +38,9 @@ const TeamArea = ({bg_style}) => {
                               </div>
                               <div className="tp-team-content">
                                  <h4 className="tp-team-title-sm"><Link href="">{item.name}</Link></h4>
-                                 <span>{item.job_title}</span>
+                                 <span style={{display: 'block',margin: '20px 0'}}>{item.job_title}</span>
+                                 <p style={{textAlign: 'justify'}}>{item.description}</p>
+                                 <p style={{textAlign: 'justify'}}>{item.description2}</p>
                               </div>
                            </div>
                         </div>

@@ -20,7 +20,7 @@ const HeroBanner = ({ bg_img,title="Get In",subtitle="Touch" }) => {
                     <div className="row">
                         <div className="col-12">
                             <div className="about-img about-img-height p-relative"
-                                style={{ backgroundImage: `url(${bg_img})` }}>
+                                style={{ backgroundImage: `url(${bg_img})`, backgroundPosition: '50% 36%' }}>
                                 <div className="about-img-content">
                                     <h4 style={{ transform: `translateY(${offset * 0.9}px)` }} className="about-img-title">
                                         <span>{title}</span> <br />

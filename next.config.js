@@ -6,7 +6,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  assetPrefix: 'https://devandrew.com.br/atuarial/',
+  assetPrefix: 'http://devandrew.com.br/atuarial/',
   images: {
     path: '/<basepath>/_next/image',
     unoptimized: true,

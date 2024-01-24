@@ -25,14 +25,19 @@ const footer_content = {
    ],
    social_links: [
       {
-         link: "http://facebook.com",
+         link: "https://www.facebook.com/brasilatuarialbh",
          target: "_blank",
          icon: "fab fa-facebook-f",
       },
       {
-         link: "http://www.instagram.com",
+         link: "https://www.instagram.com/brasilatuarial/",
          target: "_blank",
          icon: "fab fa-instagram",
+      },
+      {
+         link: "https://wa.me/3125108536?text=Ol%C3%A1%2C%20como%20vai%3F",
+         target: "_blank",
+         icon: "fab fa-whatsapp",
       },
    ],
 }

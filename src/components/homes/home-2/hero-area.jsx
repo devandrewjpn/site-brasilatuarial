@@ -6,7 +6,7 @@ import useCharAnimation from '@/src/hooks/useCharAnimation';
 
 const hero_content = {
   scroll_btn: "Scroll Down",
-  title: <><i><i className="child-1">Avaliação de riscos</i> </i>{" "}
+  title: <><i><i className="child-1">Um risco continua arriscado quando se pode prevê-lo?</i> </i>{" "}
   </>,
   btn_text: "Saiba mais",
   sub_title: <>Mais de<span>10+ Mil</span> clientes</>,
@@ -41,7 +41,7 @@ const HeroArea = () => {
         </div>
         <div className="container-fluid g-0">
           <div className="row g-0 align-items-end">
-            <div className="col-xl-6 col-lg-6">
+            <div className="col-xl-8 col-lg-8">
               <div className="tp-hero-2__title-box">
 
                 <h3 className="tp-hero-2__title">

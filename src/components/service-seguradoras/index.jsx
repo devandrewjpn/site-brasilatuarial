@@ -5,6 +5,7 @@ import FaqArea from "../homes/home-2/faq-area";
 import HeaderTwo from "@/src/layout/headers/header-2";
 import FooterTwo from "@/src/layout/footers/footer-2";
 import SeguradorasService from "./seguradoras";
+import CtaArea from "../contact/cta-area";
 
 const Service = () => {
   return (
@@ -17,6 +18,7 @@ const Service = () => {
             <HeroBanner title="Seguradoras" subtitle="Serviços para seguradoras" bg_img="/atuarial/assets/img/salasuperior.jpg" />
             <SeguradorasService />
             <FaqArea style_service={true} />
+            <CtaArea />
           </main>
           <FooterTwo  />
         </div>
