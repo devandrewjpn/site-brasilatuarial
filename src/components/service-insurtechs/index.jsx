@@ -14,8 +14,8 @@ const Service = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <Breadcrumb title_top={"Insurtechs"} title_bottom={"Serviços para insurtechs"} />
-            <HeroBanner title="Insurtechs" subtitle="Serviços para insurtechs" bg_img="/atuarial/assets/img/salasuperior.jpg" />
+            <Breadcrumb title_top={"Insurtechs"} title_bottom={""} />
+            <HeroBanner title="Insurtechs" subtitle="" bg_img="/atuarial/assets/img/salasuperior.jpg" />
             <InsurtechsService />
             <FaqArea style_service={true} />
             <CtaArea />

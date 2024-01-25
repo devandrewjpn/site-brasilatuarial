@@ -12,8 +12,8 @@ const About = () => {
   return (
     <>
       <HeaderTwo />
-      <Breadcrumb title_top="Sobre"  title_bottom="Brasil Atuarial" />
-      <HeroBanner title="Sobre" subtitle="Brasil Atuarial" bg_img="/atuarial/assets/img/fachada.jpg" />
+      <Breadcrumb title_top="Sobre"  title_bottom="" />
+      <HeroBanner title="Sobre" subtitle="" bg_img="/atuarial/assets/img/fachada.jpg" />
       <CompanyArea />
       <Brand />
       <TeamArea bg_style={true} />

@@ -1,12 +1,9 @@
-import FooterFive from "@/src/layout/footers/footer-5";
-import HeaderSix from "@/src/layout/headers/header-6";
 import React from "react";
 import Breadcrumb from "../../common/breadcrumbs/breadcrumb";
 import ContactFormArea from "./contact-form-area";
 import ContactInner from "./contact-inner";
 import CtaArea from "./cta-area";
 import HeroBanner from "../../common/hero-banner";
-import OfficeLocation from "./office-location";
 import HeaderTwo from "@/src/layout/headers/header-2";
 import FooterTwo from "@/src/layout/footers/footer-2";
 
@@ -17,8 +14,8 @@ const Contact = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <Breadcrumb title_top="Fale" title_bottom="Conosco" />
-            <HeroBanner title="Fale" subtitle="Conosco" bg_img="/atuarial/assets/img/salasuperior2.jpg" />
+            <Breadcrumb title_top="Fale Conosco" title_bottom="" />
+            <HeroBanner title="Fale Conosco" subtitle="" bg_img="/atuarial/assets/img/salasuperior2.jpg" />
             <ContactFormArea />
             <ContactInner />
             <CtaArea />
