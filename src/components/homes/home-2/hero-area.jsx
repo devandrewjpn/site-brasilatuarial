@@ -41,7 +41,7 @@ const HeroArea = () => {
         </div>
         <div className="container-fluid g-0">
           <div className="row g-0 align-items-end">
-            <div className="col-xl-8 col-lg-8">
+            <div className="col-xl-10 col-lg-10">
               <div className="tp-hero-2__title-box">
 
                 <h3 className="tp-hero-2__title">

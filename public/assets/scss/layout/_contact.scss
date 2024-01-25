@@ -274,6 +274,11 @@
         & .postbox__btn-box{
             & .submit-btn{
                 border-radius: 12px;
+                cursor: pointer;
+                &:disabled {
+                    opacity: .6;
+                    cursor: not-allowed;
+                }
             }
         }
     }
