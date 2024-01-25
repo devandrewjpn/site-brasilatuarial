@@ -62,9 +62,6 @@
 
 This project was carried out with the aim of improving the company's vision on the internet. The company already had a website, but it was made using an old and outdated layout. NextJS was proposed due to its speed and the SPA concept that once mentioned interested the end customer.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
