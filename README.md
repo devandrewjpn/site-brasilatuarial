@@ -70,6 +70,7 @@ This project was carried out with the aim of improving the company's vision on t
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
+* [![React Hook Form][React-Hook-Form]][ReactHookForm-url]
 <!-- * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
@@ -206,6 +207,8 @@ Some plus libs that i use in!
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[React-Hook-Form]: https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white
+[ReactHookForm-url]: https://react-hook-form.com/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
