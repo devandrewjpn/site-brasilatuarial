@@ -23,7 +23,7 @@ const HeroBanner = ({ bg_img,title="Get In",subtitle="Touch" }) => {
                                 style={{ backgroundImage: `url(${bg_img})`, backgroundPosition: '50% 36%' }}>
                                 <div className="about-img-content">
                                     <h4 style={{ transform: `translateY(${offset * 0.9}px)` }} className="about-img-title">
-                                        <span>{title}</span> <br />
+                                        <span>{title}</span>
                                         <span>{subtitle}</span>
                                     </h4>
                                 </div>

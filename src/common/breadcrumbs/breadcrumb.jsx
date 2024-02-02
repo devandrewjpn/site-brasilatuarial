@@ -30,7 +30,7 @@ const Breadcrumb = ({ title_top, title_bottom }) => {
                            <h4 style={{ transform: `translateY(${offset * 0.9}px)` }} 
                                  className="about-banner-title" 
                                  data-parallax='{"y": 1000, "smoothness": 10}'>
-                              <span>{title_top}</span> <br />
+                              <span>{title_top}</span>
                               <span>{title_bottom}</span>
                            </h4>
                         </div>

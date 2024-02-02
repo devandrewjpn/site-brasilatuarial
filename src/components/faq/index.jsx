@@ -12,8 +12,8 @@ const FAQ = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <Breadcrumb title_top="Perguntas Frequentes" title_bottom="" />
-            <HeroBanner title="Perguntas Frequentes" subtitle="" bg_img="/atuarial/assets/img/salasuperior2.jpg" />
+            <Breadcrumb title_top="Perguntas" title_bottom="" />
+            <HeroBanner title="Perguntas" subtitle="" bg_img="/atuarial/assets/img/salasuperior2.jpg" />
             <FaqArea />
           </main>
           <FooterTwo />
