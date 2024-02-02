@@ -19,7 +19,7 @@ const HeaderTwo = () => {
         <>
             <header className="tp-header-height">
                <div id="header-sticky" className={`"tp-header-2__area header-sticky-bg-2 tp-header-2__transparent tp-header-2__plr z-index-3 ${sticky && "header-sticky"}`}>
-                  <div className="container-fluid g-0">
+                  <div className="container g-0">
                      <div className="row g-0 align-items-center">
                         <div className="col-xl-2 col-lg-2 col-md-6 col-6">
                            <div className="tp-header-2__logo">

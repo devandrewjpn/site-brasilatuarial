@@ -21,7 +21,7 @@ const { titel, description, brand_img } = brand_content
 const Brand = () => {
   return (
     <>
-      <div className="ab-brand-area">
+      <div className="ab-brand-area pt-50">
         <div className="container">
           <div className="ab-brand-border-bottom pb-90">
             <div className="row">

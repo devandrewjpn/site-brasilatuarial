@@ -1,6 +1,6 @@
 const menu_data = [
   {
-    id: 5,
+    id: 1,
     mega_menu: false,
     has_dropdown: false,
     title: "Home",
@@ -8,7 +8,7 @@ const menu_data = [
     active: "",
   },
   {
-    id: 5,
+    id: 2,
     mega_menu: false,
     has_dropdown: false,
     title: "Sobre",
@@ -16,7 +16,7 @@ const menu_data = [
     active: "",
   },
   {
-    id: 1,
+    id: 3,
     mega_menu: false,
     has_dropdown: true,
     title: "Serviços",
@@ -27,6 +27,14 @@ const menu_data = [
       { link: "/servico-seguradoras", title: "Seguradoras" },
       { link: "/servico-insurtechs", title: "Insurtechs" },
     ],
+  },
+  {
+    id: 4,
+    mega_menu: false,
+    has_dropdown: false,
+    title: "F.A.Q",
+    link: "/faq",
+    active: "",
   },
   {
     id: 5,

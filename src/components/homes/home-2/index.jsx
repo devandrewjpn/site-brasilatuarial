@@ -6,7 +6,6 @@ import FaqArea from "./faq-area";
 import HeroArea from "./hero-area";
 import OpenAccountArea from "./open-account-area";
 import PaymentArea from "./payment-area";
-import PaymentMethodArea from "./payment-method-area";
 import ServiceArea from "./service-area";
 import TestimonialArea from "./testimonial-area";
 import Brand from "../../about/brand";
@@ -24,7 +23,6 @@ const HomeTwo = () => {
       <ServiceArea />
       <OpenAccountArea />
       <TestimonialArea />
-      <FaqArea />
       <Brand />
       {/* <CtaArea />  */}
       </main>

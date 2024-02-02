@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const payment_content = {
-    title: <>Nós Somos uma Empresa de Prestação de Serviços Atuariais</>,
+    title: <>Nós somos uma empresa de prestação de serviços Atuariais</>,
     sub_title: <>O que oferecemos</>,
     box_1: [
         {

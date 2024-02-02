@@ -5,7 +5,7 @@ import React from 'react';
 
 const contact_content  = {
     sub_title: "CONTATO",
-    tilte: <>Adoraríamos receber um contato de {" "}<span> <SendIcon /> </span> {" "}você!</>,
+    tilte: <>Adoraríamos receber seu {" "}<span> <SendIcon /> </span> {" "}contato!</>,
     info: <>Nossa equipe é especializada na solução do seu negócio.</> ,
      
 }
@@ -30,9 +30,9 @@ const ContactFormArea = () => {
                                  <Link href="#"><i className="fab fa-facebook-f"></i></Link>
                                  <Link href="#"><i className="fab fa-instagram"></i></Link>
                               </div>
-                              <div className="contact-form-section-img">
+                              {/* <div className="contact-form-section-img">
                                  <img src="/atuarial/assets/img/contact/contact-icon-sm-4.png" alt="theme-pure" />
-                              </div>
+                              </div> */}
                            </div>
                         </div>
                      </div>
