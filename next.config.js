@@ -6,6 +6,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // assetPrefix: 'http://localhost:3000/atuarial/',
   assetPrefix: 'http://devandrew.com.br/atuarial/',
   images: {
     path: '/<basepath>/_next/image',
