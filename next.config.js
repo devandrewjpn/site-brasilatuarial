@@ -2,21 +2,21 @@
 const nextConfig = {
   reactStrictMode: false,
   output: 'export',
-  basePath: '/atuarial',
+  basePath: '/',
   typescript: {
     ignoreBuildErrors: true,
   },
   // assetPrefix: 'http://localhost:3000/atuarial/',
-  assetPrefix: 'http://devandrew.com.br/atuarial/',
+  assetPrefix: 'https://brasilatuarial.com.br/',
   images: {
     path: '/<basepath>/_next/image',
     unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'devandrew.com.br/',
+        hostname: 'brasilatuarial.com.br/',
         port: '',
-        pathname: '/atuarial/**',
+        pathname: '/**',
       },
     ],
   }
