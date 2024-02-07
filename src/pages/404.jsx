@@ -1,14 +1,10 @@
 import Link from "next/link";
 import React from "react";
 import SEO from "../common/seo";
-import Footer from "../layout/footers/footer";
-import HeaderFour from "../layout/headers/header-4";
 
 // error shape import here 
 import error_shape_1 from "../../public/assets/img/login/error-shape.png";
 import error_shape_2 from "../../public/assets/img/login/text-404.png";
-import Image from "next/image";
-import HeaderTwo from "../layout/headers/header-2";
 import FooterTwo from "../layout/footers/footer-2";
 
 

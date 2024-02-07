@@ -88,7 +88,7 @@ const ServiceArea = () => {
                               <div className="tp-service-2__text">
                                  <h4 className="tp-service-2__title-sm"><Link href="/servico-entidades">{item.title}</Link></h4>
                                  <Link className="tp-service-2__link" href="/servico-entidades">Explore
-                                    <i className="far fa-arrow-right"></i>
+                                    <i class="fa-solid fa-chevron-right"></i>
                                  </Link>
                               </div>
                            </div>

@@ -8,6 +8,15 @@ import HeaderTwo from "@/src/layout/headers/header-2";
 import FooterTwo from "@/src/layout/footers/footer-2";
 
 const Contact = () => {
+
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  if (!mounted) {
+    return null;
+  }
+
   return (
     <>
       <HeaderTwo />

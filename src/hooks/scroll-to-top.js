@@ -30,7 +30,7 @@ const ScrollToTop = () => {
         className={`scroll-top scroll-to-target ${sticky ? "open" : ""}`}
         data-target="html"
       >
-         <i className="far fa-angle-double-up"></i>
+         <i class="fa-solid fa-chevron-up"></i>
       </button>
     </>
   );
