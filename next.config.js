@@ -8,7 +8,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   // assetPrefix: 'http://localhost:3000/',
-  assetPrefix: 'https://devandrew.com.br/',
+  assetPrefix: 'https://devandrew.com.br/atuarial',
   images: {
     path: '/<basepath>/_next/image',
     unoptimized: true,
