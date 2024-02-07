@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect,useState } from "react";
 import Breadcrumb from "../../common/breadcrumbs/breadcrumb";
 import ContactFormArea from "./contact-form-area";
 import ContactInner from "./contact-inner";
