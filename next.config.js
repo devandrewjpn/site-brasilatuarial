@@ -17,7 +17,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'devandrew.com.br/',
         port: '',
-        pathname: '/**',
+        pathname: '/atuarial/**',
       },
     ],
   }
