@@ -24,9 +24,9 @@ const HeaderSix = ({ style_2 = false }) => {
                      <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-6">
                         <div className="header-bottom__logo">
                            {style_2 ? <Link href="/">
-                              <img src={logo_black} alt="theme-pure" />
+                              <img src={logo_black} alt="" />
                            </Link> : <><Link className="white-logo" href="/">
-                              <img src={logo_white} alt="theme-pure" />
+                              <img src={logo_white} alt="" />
                            </Link>
                               <Link className="black-logo" href="/">
                                  <img src={logo_black} alt="" />

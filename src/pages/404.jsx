@@ -21,13 +21,13 @@ const index = () => {
           <main>
             <div className="tp-error-area tp-error-ptb p-relative">
               <div className="tp-error-left-shape">
-                <img src={error_shape_1} alt="theme-pure" />
+                <img src={error_shape_1} alt="" />
               </div>
               <div className="container">
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tp-error-content-box text-center mb-40">
-                      <img src={error_shape_2} alt="theme-pure"
+                      <img src={error_shape_2} alt=""
                       />
                     </div>
                     <div className="tp-error-text-box text-center">

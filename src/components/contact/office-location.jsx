@@ -49,7 +49,7 @@ const OfficeLocation = () => {
                       </div>
                     )}
                     <div className="contact-info-img">
-                      <img src={item.img} alt="theme-pure" />
+                      <img src={item.img} alt="" />
                     </div>
                     <div className="contact-info-title-box">
                       <h5 className="contact-info-title-sm">

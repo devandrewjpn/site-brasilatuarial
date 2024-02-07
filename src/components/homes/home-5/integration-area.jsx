@@ -61,7 +61,7 @@ const IntegrationArea = () => {
                               {
                                 integration_img.map((item, i) => 
                                 <div key={i} className={`tp-intigration-five-circle-img-${item.cls} tp-zoom-thumb`}>
-                                    <img src={item.img} alt="theme-pure" />
+                                    <img src={item.img} alt="" />
                                 </div>                                
                                 )
                               } 

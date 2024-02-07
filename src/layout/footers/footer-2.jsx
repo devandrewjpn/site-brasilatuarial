@@ -59,7 +59,7 @@ const FooterTwo = () => {
                            <div className="tp-footer__widget footer-widget-2 footer-col-2-1">
                               <div className="tp-footer__logo mb-25 text-center">
                                  <Link href="/">
-                                    <img width={150} src="/atuarial/assets/img/logo.png" alt="them-pure" />
+                                    <img width={150} src="/assets/img/logo.png" alt="them-pure" />
                                  </Link>
                               </div>
                               <div className="tp-footer__contact-info">

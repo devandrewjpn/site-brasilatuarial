@@ -45,7 +45,7 @@ const Comments = () => {
               <div className="postbox__comment-box  d-flex">
                 <div className="postbox__comment-info">
                   <div className="postbox__comment-avater mr-20">
-                    <img src={item.img} alt="theme-pure" />
+                    <img src={item.img} alt="" />
                   </div>
                 </div>
                 <div className="postbox__comment-text">

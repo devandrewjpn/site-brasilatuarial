@@ -48,7 +48,7 @@ const  ServiceArea = () => {
                         <div className="tp-service-3-item mb-30 p-relative z-index"
                          style={{backgroundImage: `url(${bg_img})`}}>
                            <div className="tp-service-3-icon">
-                              <img src={service_img_1} alt="theme-pure" />
+                              <img src={service_img_1} alt="" />
                            </div>
                            <div className="tp-service-3-content">
                               <span>{service_title}</span>
@@ -61,7 +61,7 @@ const  ServiceArea = () => {
                               <Link className="tp-btn-white-solid" href="/service-details">Learn More</Link>
                            </div>
                            <div className="tp-service-3-shape">
-                              <img src={service_img_2} alt="theme-pure" />
+                              <img src={service_img_2} alt="" />
                            </div>
                         </div>
                      </div>

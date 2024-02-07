@@ -45,7 +45,7 @@ const ServiceArea = () => {
                                     </div>
                                     <div className="tp-service-five-wrapper">
                                        <div className="tp-service-five-icon">
-                                          <img src={item.img} alt="theme-pure" />
+                                          <img src={item.img} alt="" />
                                        </div>
                                        <div className="tp-service-five-content">
                                           <h3 className="tp-service-five-title-sm">

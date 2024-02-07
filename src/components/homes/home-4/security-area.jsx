@@ -107,7 +107,7 @@ const SecurityArea = () => {
                                 <div className="tp-security-wrapper d-flex align-items-center justify-content-between">
                                     <div className="tp-security-item d-flex align-items-center">
                                         <div className="tp-security-img">
-                                            <img src={item.img} alt="theme-pure" />
+                                            <img src={item.img} alt="" />
                                         </div>
                                         <div className="tp-security-content">
                                             <h4 className="tp-security-title-sm">{item.title}</h4>

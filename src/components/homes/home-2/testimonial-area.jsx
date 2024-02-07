@@ -8,28 +8,28 @@ const slider_data = [
       name: 'Roney',
       job: 'CEO LIONS',
       info: 'Nós da Lions parabenizamos a todo time da Brasil Atuarial pelo belíssimo trabalho, e meu agradecimento em especial ao Enrico pela presteza e atenção sempre que precisamos. Já se passaram alguns anos e a parceria se fortalece ano após ano, resultado de um trabalho dedicado e com propósitos. Conte sempre conosco e que venham novos desafios. Forte abraço Enrico e todo seu time da Brasil Atuarial.',
-      img: 'https://brasilatuarial.com.br/assets/img/gallery/lions-min.webp',
+      img: '/assets/img/lions-min.webp',
     },
     {
       id: 2,
       name: 'Rodrigo Felipe',
       job: 'CEO AGV Brasil',
       info: 'Ter a Brasil Atuarial como parceira é certeza de tranquilidade. Profissionais competentes e dinâmicos, que conseguem através do vasto conhecimento nos trazer clareza e direcionamento nas operações. Agradecemos a toda equipe representada pelo Enrico, toda dedicação, presteza e descrição em nossa caminhada. Sucesso. Que continuem brilhando em todo território nacional!',
-      img: 'https://brasilatuarial.com.br/assets/img/gallery/rodrigo-min.webp',
+      img: '/assets/img/rodrigo-min.webp',
     },
     {
       id: 3,
       name: 'Alexandre Scarpelli',
       job: 'CEO APVS Brasil',
       info: 'A APVS Brasil desde de 2014 parceira da Brasil Atuarial, onde criamos um relacionamento profissional de sucesso, ao qual resultaram em grandes projetos e resultado extraordinário. Esperamos sinceramente podermos continuar lado a lado e por muito tempo, desenvolvendo novos projetos e estratégias cada vez mais ousadas.',
-      img: 'https://brasilatuarial.com.br/assets/img/gallery/alexandre-scarpelli-min.webp',
+      img: '/assets/img/alexandre-scarpelli-min.webp',
     },
     {
       id: 4,
       name: 'André Saliba',
       job: 'COO GETRACK',
       info: 'A Brasil Atuarial é uma empresa parceira a mais de 5 anos, prezamos muito por relações de longo prazo e encontramos nesta parceria uma relação de extrema confiança, onde indicamos nossos clientes que sempre nos retornam com feedbacks positivos em relação a qualidade dos serviços e do atendimento.',
-      img: 'https://brasilatuarial.com.br/assets/img/gallery/andre-saliba-min.webp',
+      img: '/assets/img/andre-saliba-min.webp',
     }
   ]
 
@@ -78,7 +78,7 @@ const setting = {
 
 
 const testimonial_content = {
-    bg_img: "/atuarial/assets/img/fundo2.png",
+    bg_img: "/assets/img/fundo2.png",
     title: <>O que nossos clientes dizem</>
 }
 const {bg_img, title}  = testimonial_content
@@ -123,7 +123,7 @@ const TestimonialArea = () => {
                                     </div>
                                     <div className="tp-testimonial-2-author d-flex align-items-center">
                                        <div className="tp-testimonial-2-img">
-                                          <img src={item.img} alt="theme-pure" />
+                                          <img src={item.img} alt="" />
                                        </div>
                                        <div className="tp-testimonial-2-author-info">
                                           <h5>{item.name}</h5>

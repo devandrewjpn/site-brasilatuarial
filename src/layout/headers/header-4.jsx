@@ -25,11 +25,11 @@ const HeaderFour = ({style_error}) => {
                            <div className="header-bottom__logo">
                               {
                                  style_error ? 
-                              <Link href="/"><img src={logo} alt="theme-pure" /></Link>
+                              <Link href="/"><img src={logo} alt="" /></Link>
                               :
                               <>
-                              <Link className="white-logo" href="/"><img src={white_logo} alt="theme-pure" /></Link>
-                              <Link className="black-logo" href="/"><img src={black_logo} alt="theme-pure" /></Link>                     
+                              <Link className="white-logo" href="/"><img src={white_logo} alt="" /></Link>
+                              <Link className="black-logo" href="/"><img src={black_logo} alt="" /></Link>                     
                               </>
 
                               }

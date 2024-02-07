@@ -6,14 +6,16 @@ const SEO = ({ pageTitle }) => (
       <title>
         {pageTitle && `${pageTitle} - Brasil Atuarial`}
       </title>
-      <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-      <meta name="description" content="Grupo Brasil Atuarial" />
-      <meta name="robots" content="noindex, follow" />
+      <meta charset="UTF-8" />
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <link rel="icon" href="https://brasilatuarial.com.br/assets/img/favicon_io/favicon-32x32.png" />
+      <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+      <meta name="description" content="Grupo Brasil Atuarial" />
+      <meta name="robots" content="noindex, follow" />
+      
+      <link rel="icon" href="favicon.svg" />
     </Head>
   </>
 );

@@ -24,7 +24,7 @@ const ContactArea = () => {
         <>
             <div className="tp-contact-area tp-contact-overlay pt-120 pb-120 blue-bg z-index p-relative fix">
                <div className="tp-contact-glob-img">
-                  <img src={contact_img} alt="theme-pure" />
+                  <img src={contact_img} alt="" />
                </div>
                <div className="container">
                   <div className="row">
@@ -56,7 +56,7 @@ const ContactArea = () => {
                      <div className="col-xl-7 col-12 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-contact-input-wrapper p-relative">
                            <div className="tp-contact-shape">
-                              <img src={shape_1} alt="theme-pure" />
+                              <img src={shape_1} alt="" />
                            </div>
                            <div className="row">
                               <div className="col-xl-6">

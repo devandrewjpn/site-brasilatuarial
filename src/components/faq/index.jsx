@@ -13,7 +13,7 @@ const FAQ = () => {
         <div id="smooth-content">
           <main>
             <Breadcrumb title_top="Perguntas" title_bottom="" />
-            <HeroBanner title="Perguntas" subtitle="" bg_img="/atuarial/assets/img/salasuperior2.jpg" />
+            <HeroBanner title="Perguntas" subtitle="" bg_img="/assets/img/salasuperior2.jpg" />
             <FaqArea />
           </main>
           <FooterTwo />

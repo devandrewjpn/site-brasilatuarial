@@ -130,7 +130,7 @@ const PriceArea = () => {
                                  <div className="col-4">
                                     <div className="tp-price-header">
                                        <div className="tp-price-header-img">
-                                          <img src={header_img} alt="theme-pure" />
+                                          <img src={header_img} alt="" />
                                        </div>
                                        <div className="tp-price-header-content">
                                           <p>{header_text}</p>
@@ -199,7 +199,7 @@ const PriceArea = () => {
                                  <div className="col-4">
                                     <div className="tp-price-header">
                                        <div className="tp-price-header-img">
-                                          <img src={header_img} alt="theme-pure" />
+                                          <img src={header_img} alt="" />
                                        </div>
                                        <div className="tp-price-header-content">
                                           <p>{header_text}</p>

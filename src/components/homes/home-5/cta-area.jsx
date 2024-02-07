@@ -42,7 +42,7 @@ const CtaArea = () => {
                             <div className= "tp-plan-img-box p-relative">
                             {img_box.map((item, i)  => 
                                 <div key={i} className={`tp-plan-img-${item.cls}`}>
-                                    <img src={item.img} alt="theme-pure" />
+                                    <img src={item.img} alt="" />
                                 </div>          
                             )} 
                            </div>
@@ -50,7 +50,7 @@ const CtaArea = () => {
                         <div className= "col-xl-5 col-lg-5 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
                            <div className= "tp-plan-section-box">
                                  <div className= "tp-plan-section-icon pb-30">
-                                    <img src={img} alt="theme-pure" />
+                                    <img src={img} alt="" />
                                  </div>
                                  <span className= "tp-section-subtitle-5 text-black">{sub_title}</span>
                                  <h3 className= "tp-section-title-5 text-black pb-15">{title}</h3>

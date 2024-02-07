@@ -24,15 +24,15 @@ const AboutArea = () => {
         <>
             <div className="tp-about-area pb-135 blue-bg p-relative">
                <div className="tp-about-top-img-2">
-                  <img src={img_1} alt="theme-pure" />
+                  <img src={img_1} alt="" />
                </div>
                <div className="container">
                   <div className="row align-items-center">
                      <div className="col-xl-6 col-lg-6 wow tpfadeLeft" data-wow-duration=".9s" data-wow-delay=".3s">
                         <div className="tp-about-left-img text-md-center p-relative text-start z-index">
-                           <img src={img_2} alt="theme-pure" />
+                           <img src={img_2} alt="" />
                            <div className="tp-about-top-img">
-                              <img src={img_3} alt="theme-pure" />
+                              <img src={img_3} alt="" />
                            </div>
                         </div>
                      </div>

@@ -10,7 +10,7 @@ const ThumbArea = () => {
           <div className="row">
             <div className="col-12">
               <div className="pd-thumb">
-                <img src={thumb_img} alt="theme-pure" />
+                <img src={thumb_img} alt="" />
               </div>
             </div>
           </div>

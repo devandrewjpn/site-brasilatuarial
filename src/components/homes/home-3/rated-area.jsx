@@ -44,10 +44,10 @@ const RatedArea = () => {
             <div className="tp-rated-area fix p-relative">
                <div className="tp-rated-bg pt-120" style={{backgroundImage: `url(${bg_img})`}}>
                   <div className="tp-rated-shape-1 d-none d-lg-block">
-                     <img src={img_1} alt="theme-pure"/>
+                     <img src={img_1} alt=""/>
                   </div>
                   <div className="tp-rated-shape-2 d-none d-sm-block">
-                     <img src={img_2} alt="theme-pure"/>
+                     <img src={img_2} alt=""/>
                   </div>
                   <div className="container z-index-6">
                      <div className="row justify-content-center">
@@ -92,7 +92,7 @@ const RatedArea = () => {
                         </div>
                      </div>
                      <div className="author-rated-big-img">
-                        <img src={author_big_img} alt="theme-pure"/>
+                        <img src={author_big_img} alt=""/>
                      </div>
                   </div>
                </div>

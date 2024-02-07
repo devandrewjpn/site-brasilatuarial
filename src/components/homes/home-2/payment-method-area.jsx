@@ -145,14 +145,14 @@ const PaymentMethodArea = () => {
                 <div className="tp-payment-method__wrapper text-center p-relative">
                   <div className="tp-payment-method__main-circle p-relative z-index">
                     <div className="tp-payment-method__main-img z-index-3">
-                      <img src={logo} alt="theme-pure" />
+                      <img src={logo} alt="" />
                     </div>
 
                     {payment_method.map((item, i) => (
                       <div key={i} className={`tp-payment-method__line-${item.line_circle} ${item.cls}`} >
                         <div className={`tp-payment-method__circle circle-${item.line_circle}`}></div>
                         <span>
-                          <img src={item.img} alt="theme-pure" />
+                          <img src={item.img} alt="" />
                         </span>
                       </div>
                     ))}

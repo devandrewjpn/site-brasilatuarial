@@ -15,13 +15,13 @@ const BreadcrumbSeven = () => {
             <div className="breadcrumb__area breadcrumb-height-2 breadcrumb-overlay p-relative fix" 
                style={{backgroundImage: `url(/assets/img/project/project-brdcrmb-bg.jpg)`}}>
                <div className="breadcrumb__shape-2 z-index-4">
-                  <img src={shape_1} alt="theme-pure" />
+                  <img src={shape_1} alt="" />
                </div>
                <div className="breadcrumb__shape-3 z-index-4">
-                  <img src={shape_2} alt="theme-pure" />
+                  <img src={shape_2} alt="" />
                </div>
                <div className="breadcrumb__shape-4 z-index-4">
-                  <img src={shape_3} alt="theme-pure" />
+                  <img src={shape_3} alt="" />
                </div>
                <div className="container">
                   <div className="row justify-content-center">

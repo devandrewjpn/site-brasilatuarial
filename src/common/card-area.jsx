@@ -70,7 +70,7 @@ const CardArea = ({style_service}) => {
                         <div className="tp-card-thumb-wrapper p-relative">
                             {card_images.map((item, i)  => 
                                 <div key={i} className={`tp-card-${item.cls}`} data-parallax={item.data_parallax}>
-                                    <img src={item.img} alt="theme-pure" />
+                                    <img src={item.img} alt="" />
                                 </div>
                             )} 
                         </div>
