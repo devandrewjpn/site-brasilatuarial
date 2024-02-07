@@ -14,7 +14,7 @@ const service_details_content = {
         {id:1, category: "Development", cls: ""},
         {id:1, category: "Illusutration", cls: ""},
     ],
-    bg_img: "/assets/img/service/sv-bg.jpg",
+    bg_img: "/atuarial/assets/img/service/sv-bg.jpg",
 
     overview_title: "Service Overview",
     overview_des: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum, orci at

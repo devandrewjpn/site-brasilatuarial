@@ -6,19 +6,19 @@ const inner_content = {
   contact_data: [
     {
       id: 1,
-      icon: "/assets/img/contact/contact-icon-sm-1.png",
+      icon: "/atuarial/assets/img/contact/contact-icon-sm-1.png",
       title: "contato@brasilatuarial.com.br",
       link: "mailto:contato@brasilatuarial.com.br",
     },
     {
       id: 2,
-      icon: "/assets/img/contact/contact-icon-sm-2.png",
+      icon: "/atuarial/assets/img/contact/contact-icon-sm-2.png",
       title: "(31) 2510 8536",
       link: "tel:+553125108536",
     },
     {
       id: 3,
-      icon: "/assets/img/contact/contact-icon-sm-3.png",
+      icon: "/atuarial/assets/img/contact/contact-icon-sm-3.png",
       title: "Rua Batista Santiago, 81 - BH/MG",
       link: "https://www.google.com/maps/place/R.+Batista+Santiago,+81+-+Liberdade,+Belo+Horizonte+-+MG,+31270-230/@-19.897802,-44.0103913,15z/data=!4m6!3m5!1s0xa6907b548e9d1b:0xd79cdda9523ab965!8m2!3d-19.8636133!4d-43.9531032!16s%2Fg%2F11c5h_07yr?entry=ttu",
     },

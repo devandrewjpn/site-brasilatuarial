@@ -12,7 +12,7 @@ const payment_content = {
             delay: ".3s",
             title: "O que fazemos",
             des: <>O que fazemos é trazer soluções em gestão de risco e gestão financeira para as entidades mutualistas, realizando trabalhos com base na própria experiência estatística da entidade ou na experiência do mercado.</>,
-            img: "/assets/img/lupa.png"
+            img: "/atuarial/assets/img/lupa.png"
 
         },
         {
@@ -22,7 +22,7 @@ const payment_content = {
             delay: ".5s",
             title: "Propósito",
             des: <>Nosso propósito é, através de consultorias pontuais e customizadas, difundir conhecimento e aprimorar aculturamento técnico no mercado. Tudo isso com entrega e apresentação de estudo de caso, com consultorias educativas, com acompanhamento, treinamento e preparação de equipe.</>,
-            img: "/assets/img/missao.png"
+            img: "/atuarial/assets/img/missao.png"
 
         },
 
@@ -76,7 +76,7 @@ const PaymentArea = () => {
                         <div className="col-xl-12 mb-30">
                             <div className="company__card__bg tp-payment__item p-relative z-index wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
                                 <div className="tp-payment__shape-1">
-                                    <img src="/assets/img/payment/background.png" alt="" />
+                                    <img src="/atuarial/assets/img/payment/background.png" alt="" />
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6">

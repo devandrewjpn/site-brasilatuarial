@@ -5,7 +5,7 @@ import { Navigation, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const testimonial_content = {
-   bg_img: "/assets/img/testimonial/testi-bg-5-1.jpg",
+   bg_img: "/atuarial/assets/img/testimonial/testi-bg-5-1.jpg",
    sub_title: "CLIENTS & PROJECTS",
    title: <>About Customer <span>Stories</span></>,
 }

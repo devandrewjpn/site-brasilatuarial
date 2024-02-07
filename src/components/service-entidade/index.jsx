@@ -15,7 +15,7 @@ const Service = () => {
         <div id="smooth-content">
           <main>
             <Breadcrumb title_top={"3º Setor"} title_bottom={""} />
-            <HeroBanner title="3º Setor" subtitle="" bg_img="/assets/img/salasuperior.jpg" />
+            <HeroBanner title="3º Setor" subtitle="" bg_img="/atuarial/assets/img/salasuperior.jpg" />
             <EntidadeService />
             <FaqArea style_service={true} />
             <CtaArea />

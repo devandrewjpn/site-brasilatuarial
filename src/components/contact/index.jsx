@@ -24,7 +24,7 @@ const Contact = () => {
         <div id="smooth-content">
           <main>
             <Breadcrumb title_top="Fale Conosco" title_bottom="" />
-            <HeroBanner title="Fale Conosco" subtitle="" bg_img="/assets/img/salasuperior2.jpg" />
+            <HeroBanner title="Fale Conosco" subtitle="" bg_img="/atuarial/assets/img/salasuperior2.jpg" />
             <ContactFormArea />
             <ContactInner />
             <CtaArea />

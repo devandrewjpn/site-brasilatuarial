@@ -27,11 +27,11 @@ const HeroArea = () => {
     <>
       <div
         className="tp-hero-2__area tp-hero-2__ptb tp-hero-2__plr z-index fix p-relative"
-        style={{ backgroundImage: `url("/assets/img/fundo3.jpg")` }}
+        style={{ backgroundImage: `url("/atuarial/assets/img/fundo3.jpg")` }}
       >
         <div className="container">
           <div className="scroll-bg d-none d-sm-block">
-            <img src="/assets/img/hero/scroll-down.png" alt="" />
+            <img src="/atuarial/assets/img/hero/scroll-down.png" alt="" />
           </div>
           <div className="tp-hero-2__mouse-scroll smooth d-none d-sm-block">
             <a className="mouse-scroll-btn" href="#payment-method"></a>
@@ -60,7 +60,7 @@ const HeroArea = () => {
                 <div className="tp-hero-2__user p-relative">
                   <h4>{sub_title}</h4>
                   <div className="tp-hero-2__user-img">
-                    <img src="/assets/img/hero/hero-user.jpg" alt="" />
+                    <img src="/atuarial/assets/img/hero/hero-user.jpg" alt="" />
                   </div>
                   <div className="tp-hero-2__shape-1">
                     <RoundLine />

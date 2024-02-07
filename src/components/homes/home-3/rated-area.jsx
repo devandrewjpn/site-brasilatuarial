@@ -30,7 +30,7 @@ const rated_content ={
         },
         ],
         
-        bg_img: "/assets/img/rate/rated-bg.jpg",
+        bg_img: "/atuarial/assets/img/rate/rated-bg.jpg",
         
 
         title: <>Customers have <span>Consistently</span><br /> <span>Rated</span> Softec<span> 4.9/5</span></>,
