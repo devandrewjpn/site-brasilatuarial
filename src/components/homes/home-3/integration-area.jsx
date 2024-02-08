@@ -18,7 +18,7 @@ const integration_content ={
     title: <>Integrated with Your <span>Favourite Apps</span></>,
     int_title: <>Integrated with Your Favourite Apps</>,
     btn_text: "See all Integrations",
-    bg_img: "/atuarial/assets/img/integration/integration-bg.jpg"
+    bg_img: "/assets/img/integration/integration-bg.jpg"
 }
 const {sub_title, title, int_title, btn_text, bg_img}  = integration_content
 

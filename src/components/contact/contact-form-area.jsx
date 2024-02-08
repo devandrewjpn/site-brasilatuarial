@@ -27,11 +27,11 @@ const ContactFormArea = () => {
                            </div>
                            <div className="contact-form-social-box p-relative">
                               <div className="contact-form-social-item">
-                                 <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                 <Link href="#"><i className="fab fa-instagram"></i></Link>
+                                 <Link href="https://www.facebook.com/brasilatuarialbh" target='_blank'><i className="fab fa-facebook-f"></i></Link>
+                                 <Link href="https://www.instagram.com/brasilatuarial/" target='_blank'><i className="fab fa-instagram"></i></Link>
                               </div>
                               {/* <div className="contact-form-section-img">
-                                 <img src="/atuarial/assets/img/contact/contact-icon-sm-4.png" alt="" />
+                                 <img src="/assets/img/contact/contact-icon-sm-4.png" alt="" />
                               </div> */}
                            </div>
                         </div>

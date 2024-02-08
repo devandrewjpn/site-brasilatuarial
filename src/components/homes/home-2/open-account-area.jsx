@@ -6,27 +6,27 @@ const account_content ={
         {
             id: 1,
             cls: "bg",
-            img: "/atuarial/assets/img/account/account-bg.png" 
+            img: "/assets/img/account/account-bg.png" 
         },
         {
             id: 2,
             cls: "main-img",
-            img: "/atuarial/assets/img/account/acc-main.png" 
+            img: "/assets/img/account/acc-main.png" 
         },
         {
             id: 3,
             cls: "author",
-            img: "/atuarial/assets/img/account/ac-author.png" 
+            img: "/assets/img/account/ac-author.png" 
         },
         {
             id: 4,
             cls: "shape-1",
-            img: "/atuarial/assets/img/account/ac-shape-1.png"
+            img: "/assets/img/account/ac-shape-1.png"
         },
         {
             id: 5,
             cls: "shape-2",
-            img: "/atuarial/assets/img/account/ac-shape-2.png"
+            img: "/assets/img/account/ac-shape-2.png"
         },
     ],
     sub_title: "Faça parte",

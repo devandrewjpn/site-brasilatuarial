@@ -54,6 +54,11 @@
         }
     }
 }
+@media (max-width: 600px) {
+    .tp-faq-btn {
+        display: none!important;
+    }
+}
 
 .tp-inner-faq-box{
     & .tp-section-subtitle-2{

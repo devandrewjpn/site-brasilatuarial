@@ -23,8 +23,8 @@ const HeaderTwo = () => {
                      <div className="row g-0 align-items-center">
                         <div className="col-xl-2 col-lg-2 col-md-6 col-6">
                            <div className="tp-header-2__logo">
-                              <Link className="white-logo" href="/"><img width={150} src="/atuarial/assets/img/logo-branca.svg" alt="" /></Link>
-                              <Link className="black-logo" href="/"><img width={150} src="/atuarial/assets/img/logo.png" alt="" /></Link>
+                              <Link className="white-logo" href="/"><img width={150} src="/assets/img/logo-branca.svg" alt="" /></Link>
+                              <Link className="black-logo" href="/"><img width={150} src="/assets/img/logo.png" alt="" /></Link>
                            </div>
                         </div>
                         <div className="col-xl-7 col-lg-7 d-none d-lg-block">
@@ -39,7 +39,7 @@ const HeaderTwo = () => {
                               <Link className="tp-btn-green-sm d-none d-md-block" target='_blank' href="https://brasilatuarial.com.br/lp/">{sign_up_btn}</Link>
                               <a className="header-bottom__bar tp-menu-bar d-lg-none" 
                               onClick={() => setSidebarOpen(true)}
-                              ><i className="fal fa-bars"></i></a>
+                              ><i class="fa-solid fa-bars"></i></a>
                            </div>
                         </div>
                      </div>

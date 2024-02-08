@@ -78,7 +78,7 @@ const setting = {
 
 
 const testimonial_content = {
-    bg_img: "/atuarial/assets/img/fundo2.png",
+    bg_img: "/assets/img/fundo2.png",
     title: <>O que nossos clientes dizem</>
 }
 const {bg_img, title}  = testimonial_content

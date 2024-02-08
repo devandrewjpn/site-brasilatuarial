@@ -15,7 +15,7 @@ const Artigos = () => {
         <div id="smooth-content">
           <main>
             <Breadcrumb title_top={"Artigos - Em breve"} title_bottom={""} />
-            {/* <HeroBanner title="Seguradoras" subtitle="" bg_img="/atuarial/assets/img/salasuperior.jpg" />
+            {/* <HeroBanner title="Seguradoras" subtitle="" bg_img="/assets/img/salasuperior.jpg" />
             <SeguradorasService />
             <FaqArea style_service={true} />
             <CtaArea /> */}

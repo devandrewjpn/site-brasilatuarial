@@ -20,7 +20,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "Serviços",
-    link: "/",
+    link: "#",
     active: "",
     sub_menus: [
       { link: "/servico-entidades", title: "Entidades do 3º setor" },

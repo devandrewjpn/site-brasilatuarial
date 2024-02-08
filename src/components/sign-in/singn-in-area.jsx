@@ -14,7 +14,7 @@ import shape_5 from "../../../public/assets/img/login/login-4.png";
 
 
 const login_content = {
-    bg_img: "/atuarial/assets/img/login/login-bg-shape.png",
+    bg_img: "/assets/img/login/login-bg-shape.png",
     banner_title: <>Welcome To <br /> Your Softec System.</>,
     
 }

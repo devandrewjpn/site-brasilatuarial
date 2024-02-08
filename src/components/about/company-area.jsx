@@ -18,7 +18,7 @@ const CompanyArea = () => {
                <div className="row ab-company-section-space">
                   <div className="col-xl-6">
                      <video width="90%" height="300" controls>
-                        <source src="/atuarial/assets/video.mp4" type="video/mp4" />
+                        <source src="/assets/video.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                      </video>
                      {/* <iframe width={500} height={300} src="https://player.vimeo.com/video/714565039?h=22a38e8af5&amp;title=0&amp;byline=0&amp;portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" /> */}

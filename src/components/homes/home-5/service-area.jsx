@@ -5,7 +5,7 @@ import React from 'react';
 
 
 const service_content = {
-    bg_img: "/atuarial/assets/img/service/service-5-1-bg.png",
+    bg_img: "/assets/img/service/service-5-1-bg.png",
     sub_title: "What we Offer",
     title: <>Get a Live <br/ >Look at Your <br /><span>Manufacturing</span> <br /> <span>Business</span> </>,
     description: <>Access the insights you need to move products and <br /> make decisions.</>,

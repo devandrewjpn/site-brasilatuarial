@@ -10,7 +10,7 @@ const service_content = {
    title: <>Accounting Software <br /> That <span>Handles it All.</span></>,
    btn_text: <>See All Features</>,
 
-   bg_img: "/atuarial/assets/img/service/service-3-bg.png",
+   bg_img: "/assets/img/service/service-3-bg.png",
    service_title: "CRM Management",
    service_info: <>Generate, Manage, and Convert leads <br /> into Customers. Automatically</>,
 }

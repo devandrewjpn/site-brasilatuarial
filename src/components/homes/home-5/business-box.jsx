@@ -6,7 +6,7 @@ import shape_1 from "../../../../public/assets/img/cta/cta-shape-5-1.png";
 import shape_2 from "../../../../public/assets/img/cta/cta-shape-5-2.png";
 
 const business_content = {
-    bg_img: "/atuarial/assets/img/cta/cta-bg-5-1.png",
+    bg_img: "/assets/img/cta/cta-bg-5-1.png",
     sub_title: "All-in-one Business Manager",
     title: <>Supercharge Your Growing <br /> <span>Business</span> </>,
     btn_text: "Get Started Free"

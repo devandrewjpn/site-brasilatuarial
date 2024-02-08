@@ -68,7 +68,7 @@ const services = [
 const EntidadeService = () => {
    return (
       <>
-         <div className="tp-service-area pb-120 z-index">
+         <div className="tp-service-area pb-20 z-index">
             <div className="container">
                <div className="row">
 

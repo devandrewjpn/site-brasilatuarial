@@ -3,7 +3,7 @@ import React from 'react';
 
 
 const cta_content = {
-    bg_img: "/atuarial/assets/img/cta/cta-bg.jpg",
+    bg_img: "/assets/img/cta/cta-bg.jpg",
     title: "",
     info: <>Um risco continua arriscado quando pode-se prevê-lo</>,
     btn_text: "Fale conosco",

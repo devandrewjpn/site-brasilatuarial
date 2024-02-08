@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 
 const testimonial_content  = {
-    bg_img: "/atuarial/assets/img/testimonial/testi-bg-3-1.png",
+    bg_img: "/assets/img/testimonial/testi-bg-3-1.png",
     title: <><span>Kind Words</span><br />from our Customers</>
 }
 const {bg_img , title}  = testimonial_content

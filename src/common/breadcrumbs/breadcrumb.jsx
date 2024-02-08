@@ -17,10 +17,10 @@ const Breadcrumb = ({ title_top, title_bottom }) => {
 
          <div className="about-banner-area p-relative">
             <div className="about-shape-1 z-index-3">
-               <img src="/atuarial/assets/img/breadcrumb/breadcrumb-shape-1.png" alt="" />
+               <img src="/assets/img/breadcrumb/breadcrumb-shape-1.png" alt="" />
             </div>
             <div className="about-shape-2 z-index-3">
-               <img src="/atuarial/assets/img/breadcrumb/breadcrumb-shape-2.png" alt="" />
+               <img src="/assets/img/breadcrumb/breadcrumb-shape-2.png" alt="" />
             </div>
             <div className="about-banner p-relative z-index fix">
                <div className="container">

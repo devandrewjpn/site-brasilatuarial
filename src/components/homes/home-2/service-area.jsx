@@ -30,19 +30,19 @@ const service_content = {
             id: 1,
             color: "",
             title: "Rateio: Apuração e Implementação",
-            img: "/atuarial/assets/img/service/sv-icon-2-1.png",
+            img: "/assets/img/service/sv-icon-2-1.png",
         },
         {
             id: 2,
             color: "",
             title: "Análise Atuarial",
-            img: "/atuarial/assets/img/service/sv-icon-2-2.png",
+            img: "/assets/img/service/sv-icon-2-2.png",
         },
         {
             id: 3,
             color: "",
             title: "Análise Financeira",
-            img: "/atuarial/assets/img/service/sv-icon-2-3.png",
+            img: "/assets/img/service/sv-icon-2-3.png",
         }
     ],
 
@@ -64,7 +64,7 @@ const ServiceArea = () => {
         <>
             <div className="tp-service-2__area p-relative pt-70 pb-160">
                <div className="tp-service-2__shape">
-                  <img src="/atuarial/assets/img/service/sv-bg-2-1.jpg" alt="" />
+                  <img src="/assets/img/service/sv-bg-2-1.jpg" alt="" />
                </div>
                <div className="container z-index-5">
                   <div className="row align-items-center mb-50">
