@@ -8,10 +8,10 @@ const brand_content = {
 
   brand_img: [
     { title: "Brasil Benefícios", img: "https://brasilbeneficios.club/assets/images/landing/bb_logo.svg", delay: ".2s", imgSize: 150, link: 'https://brasilbeneficios.club' },
-    { title: "Lua Films", img: "https://luafilms.com.br/public/assets/s_asset/images/favicon-luafilms.svg", delay: ".4s", imgSize: 60, link: 'https://luafilms.com.br' },
-    { title: "Brasil All Time", img: "https://brasilalltime.com.br/assets/images/favicon.png", delay: ".8s", imgSize: 45, link: 'https://brasilalltime.com.br' },
-    { title: "Data Science", img: "https://www.brasilatuarialds.com.br/assets/ds_assets/_img/favicon.png", delay: ".9s", imgSize: 45, link: 'https://www.brasilatuarialds.com.br' },
-    { title: "Agência Brasil Digital", img: "https://agenciabrasildigital.com.br/assets/images/flecha.svg", delay: ".9s", imgSize: 45, link: 'https://agenciabrasildigital.com.br' }
+    { title: "Lua Films", img: "/assets/img/luafilms_horizontal.svg", delay: ".4s", imgSize: 160, link: 'https://luafilms.com.br' },
+    { title: "Brasil All Time", img: "/assets/img/alltime_positiva.png", delay: ".8s", imgSize: 145, link: 'https://brasilalltime.com.br' },
+    { title: "Data Science", img: "/assets/img/datascience_positiva.png", delay: ".9s", imgSize: 165, link: 'https://www.brasilatuarialds.com.br' },
+    { title: "Agência Brasil Digital", img: "/assets/img/agencia_positiva.png", delay: ".9s", imgSize: 115, link: 'https://agenciabrasildigital.com.br' }
   ]
 }
 const { titel, description, brand_img } = brand_content
@@ -32,19 +32,19 @@ const Brand = () => {
               </div>
             </div>
             <div className="row justify-content-center">
-              <div className="col-xl-10">
+              <div className="col-lg-10">
                 <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 justify-content-center">
                   {brand_img.map((item, i) => (
                     <a
                       key={i}
-                      className="col-lg-2 wow tpfadeUp"
+                      className="col-12 col-lg-4 mb_mobile_logo d-flex justify-content-center wow tpfadeUp"
                       data-wow-duration=".9s"
                       href={item.link}
                       target='_blank'
                       data-wow-delay={item.delay}
                     >
                       <ToolTip text={item.title}>
-                        <div className="mb-25 p-3">
+                        <div className="px-3">
                           <img width={item.imgSize} src={item.img} alt="" />
                         </div>
                       </ToolTip>

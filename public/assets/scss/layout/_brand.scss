@@ -3,7 +3,11 @@
 /*----------------------------------------*/
 /*  06. BRAND CSS START
 /*----------------------------------------*/
-
+@media (max-width:800px) {
+    .mb_mobile_logo {
+        margin-bottom: 4rem;
+    }
+}
 .tp-barnd-title-sm{
     font-weight: 700;
     font-size: 22px;

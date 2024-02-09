@@ -16,15 +16,31 @@ const ContactUsForm = () => {
     const headers = new Headers()
     headers.append("Content-Type", "application/json")
 
-    const response = await fetch('https://atuarial-send-form.vercel.app/sendEmail', {
+    const response = await fetch('https://apiemail.devandrew.com.br/sendEmail', {
       method: 'POST',
-      mode:"cors",
       headers: headers,
       body: JSON.stringify({
-        nome: data.nome,
-        email: data.email,
-        telefone: data.telefone,
-        mensagem: data.mensagem,
+        "destinatario": "contato@brasilatuarial.com.br",
+        "assunto": "Formulário do site Brasil Atuarial",
+        "titulo": "Dados preenchidos:",
+        "campos": [
+          {
+            "key": "Nome",
+            "value": data.nome
+          },
+          {
+            "key": "E-mail",
+            "value": data.email
+          },
+          {
+            "key": "Telefone",
+            "value": data.telefone
+          },
+          {
+            "key": "Mensagem",
+            "value": data.mensagem
+          },
+        ]
       })
     })
 

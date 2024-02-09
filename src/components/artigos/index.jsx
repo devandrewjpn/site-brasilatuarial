@@ -14,7 +14,23 @@ const Artigos = () => {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <Breadcrumb title_top={"Artigos - Em breve"} title_bottom={""} />
+            <Breadcrumb title_top={"Artigos"} title_bottom={""} />
+            <section className="py-5">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <div className="doc_box">
+                      <div className="doc_img">
+                        <img src="/assets/img/ebook_img.png" alt="" />
+                        <span>Artigo</span>
+                      </div>
+                      <p>O MERCADO DE SEGUROS E SEUS PROTAGONISTAS</p>
+                      <a href="/ebook.pdf" target="_blank">Baixar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
             {/* <HeroBanner title="Seguradoras" subtitle="" bg_img="/assets/img/salasuperior.jpg" />
             <SeguradorasService />
             <FaqArea style_service={true} />

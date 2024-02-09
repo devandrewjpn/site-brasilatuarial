@@ -17,7 +17,7 @@ const Service = () => {
             <Breadcrumb title_top={"3º Setor"} title_bottom={""} />
             <HeroBanner title="3º Setor" subtitle="" bg_img="/assets/img/salasuperior.jpg" />
             <EntidadeService />
-            <FaqArea style_service={true} />
+            {/* <FaqArea style_service={true} /> */}
             <CtaArea />
           </main>
           <FooterTwo  />

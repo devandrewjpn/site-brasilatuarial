@@ -8,16 +8,16 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   // assetPrefix: 'http://localhost:3000/',
-  assetPrefix: 'https://devandrew.com.br/atuarial',
+  assetPrefix: 'https://brasilatuarial.com.br',
   images: {
     path: '/<basepath>/_next/image',
     unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'devandrew.com.br/',
+        hostname: 'brasilatuarial/',
         port: '',
-        pathname: '/atuarial/**',
+        pathname: '/**',
       },
     ],
   }
